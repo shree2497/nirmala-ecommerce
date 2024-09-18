@@ -1,0 +1,38 @@
+.background{
+  display: flex;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-image: url('../images/background.jpg'); /* Adjust path as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Assuming white text looks good on your background */
+}
+  
+  .nish {
+    text-align: left;
+    align-items: center;
+    padding-left: 5rem;
+    padding-top: 7rem;
+    font-size: 200%;
+    font-family:'Times New Roman', Times, serif;
+    color: #005;
+  }
+
+  .shopnow {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin-left: 30%;
+    background-color: transparent;
+    color:transparent;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .shopnow:hover {
+    background-color: rgba(179, 228, 253, 0.744);
+  }
+
+
+ 

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+
+header {
+  background-color: #ffaaaa;
+  padding: 1rem;
+  color: #ffaaaa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo a {
+  font-family: 'Qwitcher Grypen', cursive;
+  color: #005;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  padding-top: 1rem;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #005;
+  text-decoration: none;
+  font-size: 140%;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 162, 162);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-bar input {
+  border: none;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.search-bar button {
+  background-color: #c2ddf9;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #bcf2fa;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.icons a {
+  color: #005;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.icons a:hover {
+  color: #bcf2fa;
+}
+.signup{
+  padding: 0.5rem 1.0rem;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.signup:hover {
+  background-color: #bcf2fa;
+}
